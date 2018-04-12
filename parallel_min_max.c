@@ -28,7 +28,7 @@ static void terminate( int sig )
     printf("Timeout was reached!\n");
     while (active_child_processes >= 0) {
         int wpid = waitpid(-1, NULL, WNOHANG);
-		
+		 
         if(wpid == -1)
         {
             if(errno == ECHILD) break;
