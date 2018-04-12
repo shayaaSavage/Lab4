@@ -9,3 +9,4 @@ void GenerateArray(int *array, unsigned int array_size, unsigned int seed) {
     //printf("%d\n", array[i]);
   }
 }
+ 

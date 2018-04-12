@@ -7,7 +7,7 @@ t2 :
 	$(CC) -o t2.o task2.c 
 t3 : 
 	$(CC) -o t3.o process_memory.c
-t5 : 
+t5 :  
 	$(CC) -nostartfiles -c ./sum.c -o ./sum.o
 	ar rcs ./stat/libsum.a  ./sum.o
 	$(CC) -c parallel_sum.c

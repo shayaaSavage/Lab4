@@ -17,12 +17,12 @@
 #include <errno.h>
 
 #include <getopt.h>
-
+ 
 #include "find_min_max.h"
 #include "utils.h"
 
 static int active_child_processes = 0;
-
+ 
 static void terminate( int sig )
 {
     printf("Timeout was reached!\n");
