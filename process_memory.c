@@ -6,7 +6,6 @@
 #include <string.h>
 #include <sys/types.h>
 #include <unistd.h>
-
 /* Below is a macro definition */
 #define SHW_ADR(ID, I) (printf("ID %s \t is at virtual address: %8X\n", ID, &I))
 

@@ -1,0 +1,6 @@
+ ./t1.o --seed 5 --array_size 500000000 --pnum 50 --timeout 1
+ ./t2.o
+ 
+ ./t1.o --seed 5 --array_size 500000000 --pnum 50 --timeout 1
+ 
+ -nostartfiles
