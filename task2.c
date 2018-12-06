@@ -15,6 +15,5 @@ int main(int argc, char **argv)
 		printf("PID_Child = %d\n", child_pid);
 	}
 	execl("/bin/ps", "ls", "-a", NULL);
-	execl("/bin/ps", "rs", "-a", NULL);
 	
 }

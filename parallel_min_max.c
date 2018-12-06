@@ -22,7 +22,8 @@
 #include "utils.h"
 
 static int active_child_processes = 0;
- 
+
+//функция в которой убивают детей 
 static void terminate( int sig )
 {
     printf("Timeout was reached!\n");
@@ -39,6 +40,7 @@ static void terminate( int sig )
             
 		}
 	}
+	//Место в котором проверяется выход за таймаут и выполняется KILL
 	printf("KILLED! %d %d \n",sig,SIGKILL);
     kill(0, SIGKILL);
     return;

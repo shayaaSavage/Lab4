@@ -4,3 +4,13 @@
  ./t1.o --seed 5 --array_size 500000000 --pnum 50 --timeout 1
  
  -nostartfiles 
+ 
+ 
+ 
+ 
+ 
+ 
+ waitpid
+ что и зачем
+ 
+ 
